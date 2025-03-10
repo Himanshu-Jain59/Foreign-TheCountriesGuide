@@ -5,3 +5,8 @@
 * {
   font-family: Nunito Sans;
 }
+
+/* For webkit browsers like Chrome and Safari */
+::-webkit-scrollbar {
+  display: none;
+}
