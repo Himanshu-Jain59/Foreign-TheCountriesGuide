@@ -1,17 +1,17 @@
-import { useState } from "react";
-import Navbar from "./components/navbar";
-import Options from "./components/options";
-import Countries from "./components/countries";
 import "./App.css";
+import Home from "./components/Home";
+import Detail from "./components/Detail";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <div className="bg-[#fafafa]">
-        <Navbar />
-        <Options />
-        <Countries />
-      </div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/detail" element={<Detail />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
