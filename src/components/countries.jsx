@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Country from "./country";
+import Country from "./Country";
 
 function Countries() {
   return (
