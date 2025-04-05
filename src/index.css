@@ -3,7 +3,7 @@
 @import "tailwindcss";
 
 * {
-  font-family: Nunito Sans;
+  font-family: "Nunito Sans";
 }
 
 /* For webkit browsers like Chrome and Safari */
