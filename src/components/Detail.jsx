@@ -23,7 +23,7 @@ function Detail() {
       );
     }
     const result = res.data;
-    console.log(result);
+    // console.log(result);
     // console.log(result[0].currencies);
     // console.log(result[0].languages);
 
@@ -38,7 +38,7 @@ function Detail() {
     getDetail();
   }, [country]);
   return (
-    <>
+    <div className="h-132 bg-[#fafafa] dark:bg-dark-bg dark:text-white">
       <Backbtn />
       <div className="py-6 mx-15 flex ">
         {data.map(function (elem) {
@@ -118,7 +118,7 @@ function Detail() {
           );
         })}
       </div>
-    </>
+    </div>
   );
 }
 

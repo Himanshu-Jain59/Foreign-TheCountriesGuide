@@ -32,14 +32,14 @@ function Country() {
           <>
             <div
               key={elem.flag}
-              className="flex border transition-transform duration-500 transform hover:scale-105 border-white w-fit rounded-md bg-white shadow-lg"
+              className="flex border transition-transform duration-500 transform hover:scale-105 border-white w-fit rounded-md bg-white shadow-lg dark:bg-dark-el dark:border-dark-el dark:text-white "
             >
               <div className="w-65">
                 <Link to={`/detail/${elem.name.common}`}>
                   <img
                     src={elem.flags.png}
                     alt=""
-                    className=" h-45 w-65 border border-white rounded-t-md "
+                    className=" h-45 w-65 border border-white rounded-t-md dark:border-dark-bg"
                   />
                 </Link>
                 <div className="p-6">

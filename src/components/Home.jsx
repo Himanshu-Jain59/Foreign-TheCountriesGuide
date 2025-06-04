@@ -5,7 +5,7 @@ import Options from "./Options";
 function Home() {
   return (
     <>
-      <div className="bg-[#fafafa]  ">
+      <div className="bg-[#fafafa] dark:bg-dark-bg ">
         <Options />
         <Countries />
       </div>
