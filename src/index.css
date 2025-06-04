@@ -1,8 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css");
+
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-dark-bg: #202c37;
+  --color-dark-el: #2b3945;
+}
 
 * {
+  /* background: #2b3945; */
   font-family: "Nunito Sans";
 }
 
